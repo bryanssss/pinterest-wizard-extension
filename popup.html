@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pinterest Wizard</title>
+    <!-- THIS LINE FIXES THE WEIRD SYMBOLS -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icons/icon48.png" alt="Icon" class="logo">
+            <h1>Pinterest Wizard</h1>
+        </div>
+        
+        <div id="generate-container">
+            <p>Describe your pin's content below:</p>
+            <textarea id="pin-content-input" placeholder="e.g., a recipe for vegan chocolate chip cookies with a secret ingredient..." rows="4"></textarea>
+            <button id="generate-button">Generate ✨</button>
+        </div>
+
+        <div id="loading-indicator" class="hidden">
+            <p>Generating, please wait...</p>
+        </div>
+
+        <div id="results-container" class="hidden">
+            <div class="result-item">
+                <div class="result-header">
+                    <h3>Generated Title:</h3>
+                    <button id="copy-title-button" class="copy-button">Copy</button>
+                </div>
+                <div id="generated-title" class="result-box"></div>
+            </div>
+            <div class="result-item">
+                <div class="result-header">
+                    <h3>Generated Description:</h3>
+                    <button id="copy-description-button" class="copy-button">Copy</button>
+                </div>
+                <div id="generated-description" class="result-box"></div>
+            </div>
+            <button id="clear-button">Clear & Start Over</button>
+        </div>
+
+        <div class="footer">
+            <p>Enjoying the wizard? Consider a small donation!</p>
+            <a href="https://www.buymeacoffee.com/boyan" target="_blank">
+                <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162px !important;" >
+            </a>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

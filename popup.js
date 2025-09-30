@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 async function callAI(pinContent) {
     // ⚠️ IMPORTANT: Replace this with your REAL Netlify function URL after deployment
-    const API_ENDPOINT = 'https://YOUR_NETLIFY_SITE_NAME.netlify.app/api/generate'; 
+    const API_ENDPOINT = 'https://pinterest-wizard-api.netlify.app/api/generate'; 
 
     // The API key is GONE from the extension. It's now secure!
     

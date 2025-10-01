@@ -1,5 +1,7 @@
 [functions]
   directory = "netlify/functions"
+  # This increases the timeout for all functions to 26 seconds
+  timeout = 26
 
 [[redirects]]
   from = "/api/*"

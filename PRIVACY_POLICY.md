@@ -1,6 +1,6 @@
 # Privacy Policy for Pinterest Wizard
 
-**Last Updated: 30.09.2025**
+**Last Updated: [Enter Today's Date]**
 
 Thank you for using Pinterest Wizard. This privacy policy explains what information is collected and how it is used.
 

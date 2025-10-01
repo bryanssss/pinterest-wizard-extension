@@ -1,8 +1,12 @@
+# This is the main functions setting
 [functions]
   directory = "netlify/functions"
-  # This increases the timeout for all functions to 26 seconds
+
+# This block sets a specific timeout for our 'generate' function
+[functions.generate]
   timeout = 26
 
+# This redirect setting remains the same
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
